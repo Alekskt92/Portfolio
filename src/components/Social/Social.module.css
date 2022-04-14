@@ -1,0 +1,88 @@
+.social {
+    background-image: url("https://wallpapercave.com/wp/wp6571917.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social__wrap {
+    padding: 250px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.social__wrap,
+.network {
+    display: flex;
+    max-width: 1200px;
+}
+
+.social__title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 175px;
+}
+
+.social__block {
+    margin: 0 auto 175px;
+    max-width: 300px;
+}
+
+.social__block,
+.network__link {
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: all .75s;
+}
+
+.social__title,
+.network__desc {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.social__block:hover,
+.network__link:hover {
+    background: #ee5c87;
+    box-shadow: 0 -200px 100px -100px #f1a4b5 inset;
+    transform: scale(1.05, 1.05);
+}
+
+.network__link,
+.social__cv {
+    text-decoration: none;
+    font-size: 28px;
+    color: #000000;
+    padding: 25px 50px;
+    display: inline-block;
+}
+
+.network,
+.network__block,
+.network__desc,
+.network__link {
+    width: 100%;
+}
+
+.network {
+    justify-content: space-between;
+}
+
+.network__block {
+    max-width: 500px;
+    text-align: center;
+}
+
+.network__desc,
+.network__link {
+    display: inline-block;
+}
+
+.network__desc {
+    margin-bottom: 100px;
+}
+
+.network__link {
+    max-width: 150px;
+}
+

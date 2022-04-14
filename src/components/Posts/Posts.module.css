@@ -1,0 +1,51 @@
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 0 200px;
+
+}
+
+.interests__title {
+    position: absolute;
+    top: 150px;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.image {
+    width: 900px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.left__arrow,
+.right__arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 48px;
+    color: #ffffff;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.right__arrow {
+    right: 200px;
+}
+
+.right__arrow:hover,
+.left__arrow:hover {
+    color: #000000;
+}
+
+.left__arrow {
+    left: 200px;
+}

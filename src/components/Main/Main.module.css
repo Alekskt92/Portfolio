@@ -1,0 +1,89 @@
+.main {
+    background-image: url("https://wallpaperaccess.com/full/3123062.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px ;
+}
+
+.main__wrap {
+    max-width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav,
+.nav__list {
+    display: flex;
+}
+
+.nav__list {
+    margin: 0 auto 435px;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list__item {
+    cursor: auto;
+}
+
+.list__item,
+.list__link:hover {
+    color: black;
+}
+
+.list__item,
+.list__link {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.list__link {
+    color: #fff;
+}
+
+.banner {
+    width: 1140px;
+    height: 570px;
+    position: absolute;
+    top: 126px;
+    left: 150px;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 5;
+}
+
+.card {
+    padding: 25px 0 55px;
+    background: #fff;
+    display: inline-block;
+    width: 288px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 117px;
+}
+
+.card__pic {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+}
+
+.card__pic,
+.card__desc {
+    margin-bottom: 15px;
+}
+
+.card__desc {
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
